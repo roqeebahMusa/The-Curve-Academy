@@ -1,0 +1,75 @@
+.AlumniIntro {
+    width: 21%;
+    height: 90%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.AlumniIntro2 {
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.AlumniImg {
+    width: 90%;
+    height: 40%;
+    /* background-color: red; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.AlumniNames {
+    width: 90%;
+    height: 12%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+}
+
+.AlumniMessage {
+    width: 90%;
+    height: 40%;
+    /* background-color: aqua; */
+}
+
+.AlumniNamesTwo {
+    width: 70%;
+    height: 90%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.Line {
+    width: 40%;
+    border: 2px solid #045e8a;
+}
+
+.msgs {
+    font-size: 13.2px;
+    color: #023047;
+
+}

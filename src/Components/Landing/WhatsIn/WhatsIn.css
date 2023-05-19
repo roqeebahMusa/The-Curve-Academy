@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.WhatsInCards {
+    width: 20%;
+    height: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WhatsInCards2 {
+    width: 93%;
+    height: 100%;
+    /* background-color: white; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FB8500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+    border-left: 3px solid orange;
+    border-right: 3px solid orange;
+    /* box-shadow: rgba(250, 180, 66, 0.70) 0px 1px 4px 3px; */
+}
+
+.WhatsTexts {
+    width: 100%;
+    height: 75%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.whatsTexts1 {
+    height: 17%;
+    /* background-color: antiquewhite; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+hr {
+    width: 27%;
+    border: 3px solid #FB8500;
+    border-radius: 1px;
+}
+.textOne {
+    font-weight: 640;
+    color: #023047;
+}
+.textTwo {
+   font-size: 14.3px;
+   color: #023047;
+   line-height: 20px;
+}  
+

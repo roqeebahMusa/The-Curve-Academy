@@ -1,0 +1,71 @@
+.WhatsInCards {
+    width: 20%;
+    height: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WhatsInCards2 {
+    width: 93%;
+    height: 100%;
+    /* background-color: white; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.image2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #023047;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(1, 51, 84, 0.20) 0px 1px 4px 3px;
+    border-top: 2px solid #045e8a;
+    border-bottom: 2px solid #045e8a;
+    border-left: 2px solid #045e8a;
+    border-right: 2px solid #045e8a;
+}
+
+.WhatsTexts {
+    width: 100%;
+    height: 75%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.whatsTexts2 {
+    height: 17%;
+    /* background-color: antiquewhite; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.hr {
+    width: 27%;
+    border: 3px solid #045e8a;
+    border-radius: 1px;
+}
+.textOne {
+    font-weight: 640;
+    color: #023047;
+}
+.textTwo {
+   font-size: 14.3px;
+   color: #023047;
+   line-height: 20px;
+}  
+
+.whats-img {
+    width: 30px;
+}

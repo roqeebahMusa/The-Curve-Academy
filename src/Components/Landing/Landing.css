@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Landing {
+    width: 100%;
+   min-height: 100%;
+    background-color: #023047;
+    /* margin-top: 20px; */
+}
+
+.LandingPage {
+    width: 100%;
+    height: 68%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.theCurveTexts {
+    width: 40%;
+    height:100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.texts2 {
+    height: 70%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 83%;
+    color: white;
+}
+
+.texts2 h2 {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* color: white; */
+    height: 43%;
+}
+
+.texts2 p {
+    font-size: 16px;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    height: 25%;
+}
+
+.apply{
+    width: 100%;
+    height: 18%;
+    border: none;
+    outline: none;
+    color: #34393C;
+    /* background-color: red; */
+    /* border-radius: 10px; */
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.apply button {
+    width: 53%;
+    height: 90%;
+    border: none;
+    outline: none;
+    color: #34393C;
+    background-color: #FFB703;
+    border-radius: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 640;
+}
+
+
+h2 span {
+    color: #FFB703;
+}
+
+.theCurvePose {
+    width: 60%;
+    height: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.theCurvePose img {
+    width: 57%;
+    /* height: 112%; */
+}
+
+.whatsIn {
+    width: 100%;
+    height: 90%;
+    /* background-color: cornflowerblue; */
+    background-image: url("../../../src/assets/Rectangleone.png");
+}
+
+
+.star {
+    width: 100%;
+    height: 14%;
+    /* background-color: darkcyan; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star img {
+    width: 12%;
+}
+
+
+.whatsInTexts {
+    width: 100%;
+    height: 15%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lineText {
+    width: 93%;
+    height: 95%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lineText p {
+    font-size: 20px;
+    color: #023047;
+    font-weight: 640;
+}
+
+.lineText img {
+    width: 8%;
+}
+
+.whatsInLists {
+    width: 100%;
+    height: 54%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.apply2{
+    width: 100%;
+    height: 15%;
+    border: none;
+    outline: none;
+    color: #34393C;
+    /* background-color: red; */
+    /* border-radius: 10px; */
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apply2 button {
+    width: 20%;
+    height: 50%;
+    border: none;
+    outline: none;
+    color: #34393C;
+    background-color: #FFB703;
+    border-radius: 7px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 640;
+}
+
+.apply3{
+    width: 80%;
+    height: 80%;
+    border: none;
+    outline: none;
+    color: #34393C;
+    /* background-color: brown; */
+    /* border-radius: 10px; */
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apply3 button {
+    width: 25%;
+    height: 70%;
+    border: none;
+    outline: none;
+    color: #34393C;
+    background-color: #FFB703;
+    border-radius: 7px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 640;
+    margin-right: 150px;
+}
+
+.apply2 img {
+    width: 8%;
+}
+
+.Alumnis {
+    width: 100%;
+    height: 78%;
+    background-color: #023047;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.MeetThem {
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.MeetThem2 {
+    width: 96%;
+    height: 80%;
+    /* background-color: rgb(17, 18, 18); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    color: white;
+}
+
+.Alumnis-Two {
+    width: 100%;
+    height: 78%;
+    /* background-color: #FFB703; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.EventsPhotos {
+    width: 100%;
+    height: 55%;
+    background-image: url("../../assets/Rectangleone.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.eventphotoOne {
+    width: 100%;
+    /* background-color: blue; */
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event {
+    width: 96%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    color: #023047;
+}
+
+.eventphotoTwo {
+    width: 100%;
+    height: 90%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.eventphotoTwo img {
+    width: 21%;
+    height: 80%;
+}
+
+.sponsors {
+    width: 100%;
+    height: 50%;
+    background-color: #023047;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .sponsor1 {
+    width: 100%;
+    background-color: blue;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsors1a {
+    width: 96%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    color: #023047;
+} */
+.sponsors2 {
+    width: 100%;
+    height: 40%;
+    background-image: url("../../assets/Rectangleone.png");
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.sponsors2 img {
+    width: 15%;
+}
+.sponsors1a {
+    /* background-color: #FFB703; */
+    width: 96%;
+    height:80%;
+    display: flex;
+    justify-content: space-around; 
+    /* align-items: center; */
+    gap: 10px;
+    flex-direction: column;
+}
