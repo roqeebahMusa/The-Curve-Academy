@@ -23,15 +23,15 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #023047;
+    background-color:rgb(33, 158, 188);
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: rgba(1, 51, 84, 0.20) 0px 1px 4px 3px;
-    border-top: 2px solid #045e8a;
-    border-bottom: 2px solid #045e8a;
-    border-left: 2px solid #045e8a;
-    border-right: 2px solid #045e8a;
+    border-top: 2px solid #369fd4;
+    border-bottom: 2px solid #369fd4;
+    border-left: 2px solid #369fd4;
+    border-right: 2px solid #369fd4;
 }
 
 .WhatsTexts {

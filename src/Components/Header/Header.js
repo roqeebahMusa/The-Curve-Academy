@@ -1,8 +1,9 @@
 import "./Header.css"
 import theCurve from "../../assets/thecurve.png"
 
-
 const Header = () => {
+
+
     return (
         <div className="Main-Header">
             <div className="Main-header1">
@@ -10,8 +11,8 @@ const Header = () => {
                     <img src={theCurve} alt="Kora Academy"/>
                 </div>
                 <div className="header-navs">
-                    <h4>Home</h4>
-                    <h4>About</h4>
+                    <h4>Home</h4>      
+                   <h4>About</h4>
                     <h4>Contact</h4>
                     <h4>Gallery</h4>
                 </div>

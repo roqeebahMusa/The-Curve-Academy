@@ -7,7 +7,7 @@ const Alumni = (props) => {
         <div className="AlumniIntro">
             <div className="AlumniIntro2">
                 <div className="AlumniImg">
-                    <img src={props.alumniimg} alt="Favour Igbani" className="img" />
+                    <img src={props.alumniimg} alt="Alumni Images" className="img" />
                 </div>
             <div className="AlumniNames">
                 <div className="AlumniNamesTwo">

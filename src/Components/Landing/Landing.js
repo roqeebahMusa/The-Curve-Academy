@@ -10,9 +10,9 @@ import WhatsIntwo from "./WhatsIn/WhatsIntwo/WhatsIntwo"
 import Alumni from "./Alumni/Alumni"
 import fave from "../../assets/Favour.png"
 import Nkume from "../../assets/Nkume.png"
-import eventOne from "../../assets/event1.jpg"
-import eventTwo from "../../assets/event2.jpg"
-import eventThree from "../../assets/event3.jpg"
+import eventOne from "../../assets/event1.png"
+import eventTwo from "../../assets/event2.png"
+import eventThree from "../../assets/event3.png"
 import Korapay from "../../assets/KorapayLogo.png"
 import Footer from "../Footer/Footer"
 
@@ -26,7 +26,7 @@ const Landing = () => {
                     <div className="texts2">
                           <h2>Become an Expert in <br /> Software Engineering for <span>FREE</span></h2>
 
-                <p>Join Kora Academy today to learn and acquire hands <br /> on experience, build amazing portfolio and with <br /> guaranteed internship on completion, all for free!</p>
+                <p className="join">Join Kora Academy today to learn and acquire hands <br /> on experience, build amazing portfolio and with <br /> guaranteed internship on completion, all for free!</p>
 
                    <div className="apply">
                    <button>Apply Now!</button>

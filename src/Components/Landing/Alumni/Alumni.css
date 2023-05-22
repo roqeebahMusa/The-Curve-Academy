@@ -73,3 +73,16 @@
     color: #023047;
 
 }
+
+@media screen and (max-width: 768px) {
+    .AlumniIntro{
+        background-color: aqua;
+    }
+    .AlumniImg {
+        width: 90%;
+        height: 32%;
+    }
+   .msgs {
+    
+   }
+}

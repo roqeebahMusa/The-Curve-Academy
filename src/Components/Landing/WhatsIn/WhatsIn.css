@@ -29,7 +29,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #FB8500;
+    background-color: rgb(251, 133, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,3 +72,13 @@ hr {
    line-height: 20px;
 }  
 
+@media screen and (max-width: 768px) {
+    .WhatsInCards {
+        width: 10%;
+    } 
+    .WhatsInCards2 {
+        /* background-color: red; */
+        /* width: 100%; */
+    }
+    
+}

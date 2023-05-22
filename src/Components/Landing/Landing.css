@@ -161,7 +161,7 @@ h2 span {
 .whatsInLists {
     width: 100%;
     height: 54%;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -358,4 +358,49 @@ h2 span {
     /* align-items: center; */
     gap: 10px;
     flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .LandingPage{
+        background-color: rgb(37, 37, 37);
+    }
+    .theCurveTexts {
+        /* background-color: antiquewhite; */
+        width: 50%;
+    }
+    .texts2 {
+        /* background-color: aqua; */
+        width: 90%;
+    }
+    .join {
+        margin-bottom: 25px;
+    }
+    .apply button {
+        width: 70%;
+    }
+    .theCurvePose img {
+        width: 100%;
+    }
+    .whatsIn {
+        /* background-color: red; */
+    }
+    .star {
+        width: 100%;
+    }
+    .whatsInTexts {
+        /* background-color: red; */
+    }
+    .lineText img {
+        width: 13%;
+    }
+    .whatsInLists{
+        /* background-color: red; */
+    }
+    .WhatsInCards {
+        background-color: yellow;
+    }
+   .Alumnis {
+    background-color: red;
+   }
+  
 }
